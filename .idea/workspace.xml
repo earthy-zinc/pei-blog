@@ -1,30 +1,558 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.6356228" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534cb32e-a455-4867-86a1-5def49f64e4d" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="534cb32e-a455-4867-86a1-5def49f64e4d" name="变更" comment="创建工程，并添加相关的依赖">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/pei/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/ArticleTagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/BlogLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/schedule/UpdateViewCountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/schedule/ViewCountRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/service/BlogLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/pei_blog.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/common/HttpCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/common/MybatisObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/common/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/ArticleTagDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/LinkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/RoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/TagDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/dao/UserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/exception/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/exception/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/security/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/ArticleTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/LinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/RoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/LinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/utils/BeanCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/ArticleDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/ArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/BlogUserLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/CommentVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/HotArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com/pei/vo/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/aini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/baibai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/baiyan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/baobao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/beishang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/bishi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/bizui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/caonima.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/chanzui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/chijing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/dangao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/fahongbao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/fennu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/fuyun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/ganmao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/geili.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/good.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/guzhang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/haha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/haixiu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/han.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/haqian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/heixian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/heng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/huatong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/hufen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/jiong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/jiyan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/keai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/kelian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/ku.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/kun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/lai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/lazhu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/lei.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/nu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/numa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/qian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/qinqin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/ruo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/se.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shangxin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shengbing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shenma.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shiwang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shuai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shudaizi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/shui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/sikao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/taikaixin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/touxiao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/tu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/tuzi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/wabi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/weiguan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/weiqu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/weiwu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/weixiao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/xin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/xiongmao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/xixi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/xu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/ye.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/yinxian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/yiwen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/youhengheng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/yun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/zan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/zhu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/zhuakuang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/emot/image/zuohengheng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/headbg05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/heart02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/tou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/tou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/upto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/web.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/api/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/api/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/api/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/sigmar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/articleDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/articlelist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/friends.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/reward.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/rightlist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/DetailArticle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/FriendsLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/Reward.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/Share.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/pages/UserInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/errorCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/plug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/theater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/ali_pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/aini.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baibai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baiyan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baobao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/beishang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/bishi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/bizui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/caonima.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/chanzui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/chijing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/dangao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fahongbao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fennu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fuyun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ganmao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/geili.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/good.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/guzhang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haha.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haixiu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/han.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haqian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/heixian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/heng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/huatong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/hufen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/jiong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/jiyan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/keai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/kelian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ku.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/kun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lazhu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lei.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/nu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/numa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/qian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/qinqin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ruo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/se.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shangxin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shengbing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shenma.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shiwang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shuai.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shudaizi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shui.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/sikao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/taikaixin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/touxiao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/tu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/tuzi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/wabi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiguan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiqu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiwu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weixiao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xin.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xiongmao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xixi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ye.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yinxian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yiwen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/youhengheng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zan.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zhu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zhuakuang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zuohengheng.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/headbg05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/heart02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/qq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/scroll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/upto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/web.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/wx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/wx_pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/static/js/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-blog-vue/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/README-zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/content/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/content/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/content/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/content/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/content/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/system/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/api/system/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/build.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/cascader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/component.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/date-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/date.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/dict.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/documentation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/druid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/excel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/exit-fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/guide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/input.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/international.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/job.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/language.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/log.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/logininfor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/number.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/online.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/peoples.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/redis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/row.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/skill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/swagger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/system.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/textarea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/theme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/time-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tree-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/validCode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/wechat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/components/ParentView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/directive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/directive/permission/hasPermission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/InnerLink/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/plugins/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/plugins/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/plugins/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/downloadService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/errorCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/get-page-title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/jscencrypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/sg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/content/article/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/content/article/write/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/content/category/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/content/link/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/content/tag/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/system/menu/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/system/role/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/src/views/system/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sg-vue-admin/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2EOA4aaQmAAgTWooGPBiwn0Qfzl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -34,15 +562,172 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/StudyDoc/My Program Files/3.Back End/reggie_take_out&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;917468180f9440a907f9c88e65428448&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pei.vo" />
+      <recent name="com.pei.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\sg-blog-vue\static\img" />
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\framework\src\main\java\com\pei\utils" />
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\framework\src\main\java\com\pei\common" />
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\sg-blog-vue" />
+      <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="前后端联调" type="CompoundRunConfigurationType">
+      <toRun name="start" type="js.build_tools.npm" />
+      <toRun name="BlogApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pei" />
+      <option name="MAIN_CLASS_NAME" value="com.pei.BlogApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pei.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pei.login" />
+      <option name="MAIN_CLASS_NAME" value="com.pei.login.UserLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest.testSaveObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pei.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pei.login" />
+      <option name="MAIN_CLASS_NAME" value="com.pei.login.UserLoginTest" />
+      <option name="METHOD_NAME" value="testSaveObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pei.BlogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/sg-blog-vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/sg-blog-vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/sg-blog-vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BlogApplicationTest" />
+      <item itemvalue="JUnit.UserLoginTest" />
+      <item itemvalue="JUnit.UserLoginTest.testSaveObject" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="Spring Boot.BlogApplication" />
+      <item itemvalue="复合.前后端联调" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="JUnit.UserLoginTest" />
+        <item itemvalue="JUnit.UserLoginTest.testSaveObject" />
+        <item itemvalue="JUnit.BlogApplicationTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -51,12 +736,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662456069029</updated>
-      <workItem from="1662456071676" duration="702000" />
+      <workItem from="1662456071676" duration="11947000" />
+      <workItem from="1662473857015" duration="644000" />
+      <workItem from="1662504712543" duration="2619000" />
+      <workItem from="1662594141912" duration="15636000" />
+      <workItem from="1662690212476" duration="7312000" />
+      <workItem from="1662764624582" duration="47290000" />
+      <workItem from="1662829834613" duration="954000" />
+      <workItem from="1662849190456" duration="2459000" />
+      <workItem from="1662858561226" duration="5127000" />
     </task>
+    <task id="LOCAL-00001" summary="创建工程，并添加相关的依赖">
+      <created>1662456991478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662456991478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/sg-blog-vue/node_modules/@vue/cli-plugin-unit-jest/generator/template/tests/unit/example.spec.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -68,5 +774,38 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="创建工程，并添加相关的依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建工程，并添加相关的依赖" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CommonController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CategoryController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Request" memberName="attributes" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
