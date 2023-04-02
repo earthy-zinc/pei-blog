@@ -27,5 +27,4 @@ public class BlogLoginController {
         return R.okResult(HttpCodeEnum.SUCCESS);
     }
 
-
 }

@@ -12,7 +12,7 @@
           alt=""
         />
         <h1 v-if="this.$store.state.themeObj.user_start != 0">
-          <span>请用你的名字 呼唤我</span>
+          <span>加油</span>
         </h1>
       </div>
       <div class="r1-body">
@@ -108,7 +108,8 @@
 
 
 <script>
-import { hotArticleList } from "../api/article";
+import {hotArticleList} from "../api/article";
+
 export default {
   data() {
     //选项 / 数据
