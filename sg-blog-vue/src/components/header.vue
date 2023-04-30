@@ -46,7 +46,7 @@
 
 			<h2 class="h-description">
 
-                        {{this.$store.state.themeObj.autograph?this.$store.state.themeObj.autograph:"小沛小沛小沛"}}
+                        {{ this.$store.state.themeObj.autograph ? this.$store.state.themeObj.autograph : "田田田田田" }}
 
                 </h2>
 		</div>
@@ -54,10 +54,10 @@
 </div>
 </template>
 <script>
-import {logout} from '../api/user'
-import {removeToken} from '../utils/auth'
-import {getCategoryList} from '../api/category'
-import {Typeit} from '../utils/plug.js'
+import { logout } from '../api/user';
+import { removeToken } from '../utils/auth';
+import { getCategoryList } from '../api/category';
+import { Typeit } from '../utils/plug.js';
 
 export default {
 	data() { //选项 / 数据

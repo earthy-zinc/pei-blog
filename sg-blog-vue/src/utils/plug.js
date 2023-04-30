@@ -1,5 +1,3 @@
-import Vue from 'vue'
-
 /**
  * The MIT License (MIT)
  *
@@ -391,15 +389,15 @@ const Typeit = (isAimee,emId) =>{
         //使用TheaterJS，你可以建立多个角色，每个角色都有自己的“经验”，它们使用这些“经验”可以互相“交谈”。
         //上面的代码描述了一个新的角色，名字叫“Vader”，它的“经验”值为0.8（必须是0-1之间），它的voice是“#vader”。voice将用于打印的文字，Vader是一个html元素。
         /***voice可以是两种类型：
-            一个HTML元素（或一个CSS选择器），元素的innerHTML将被用于设置voice。
-            用4个参数调用的函数：
-            newValue：新的speech值。
-            newChar：新的打印字符。
-            prevChar：前一个字符。
-            speech：所有的speech。
+         一个HTML元素（或一个CSS选择器），元素的innerHTML将被用于设置voice。
+         用4个参数调用的函数：
+         newValue：新的speech值。
+         newChar：新的打印字符。
+         prevChar：前一个字符。
+         speech：所有的speech。
          ***/
 
-        var world = "PEI"
+        var world = 'TIAN';
         theater.describe("Luke", .9, emId);
         // conosle.log()
         theater.on("*", function (eventName, originalEvent, sceneName, arg) {//做点什么
