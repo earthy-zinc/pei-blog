@@ -16,7 +16,7 @@
         </h1>
       </div>
       <div class="r1-body">
-        <p>田</p>
+        <p>沛</p>
         <div class="catch-me">
           <div class="">
             <el-tooltip class="item" content="Github" placement="top">
@@ -108,7 +108,7 @@
 
 
 <script>
-import { hotArticleList } from '../api/article';
+import {hotArticleList} from '../api/article';
 
 export default {
   data() {

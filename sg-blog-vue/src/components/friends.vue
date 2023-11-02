@@ -2,7 +2,7 @@
 <template>
 <div class="tFriendsBox">
     <h1>友链申请格式
-        <h3> 网站名称: 周田博客</h3>
+      <h3> 网站名称: 小沛の博客</h3>
         <h3>网站地址: https://www.baidu.com </h3>
         <h3>网站描述: 百度你懂的</h3>
       <h3>网站logo: 暂无，太懒了</h3>
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { getAllLink } from '../api/link.js';
+import {getAllLink} from '../api/link.js';
 
 export default {
     data() { //选项 / 数据

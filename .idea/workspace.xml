@@ -8,25 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534cb32e-a455-4867-86a1-5def49f64e4d" name="变更" comment="初步完成工程">
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/ali_pay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/coffee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/img01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/img/wx_pay.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/BlogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/java/com/pei/controller/BlogLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/dist/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/friends.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/friends.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/reward.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/reward.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/rightlist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/components/rightlist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/plug.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/src/utils/plug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/ali_pay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/ali_pay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/headbg05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/headbg05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/img01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/img01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/qq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/qq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.png" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/wx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/wx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/wx_pay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/static/img/wx_pay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/sg-blog-vue/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +52,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.8.6" />
-        <option name="userSettingsFile" value="C:\Users\Pei\maven\apache-maven-3.8.6\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2EOA4aaQmAAgTWooGPBiwn0Qfzl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -87,17 +81,21 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProgramingProject/4.Algorithem/java&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/earthyzinc/ProgramProject/pei_blog/sg-blog-vue/static/img&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;917468180f9440a907f9c88e65428448&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -115,6 +113,7 @@
       <recent name="com.pei.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\earthyzinc\ProgramProject\pei_blog\sg-blog-vue\static\img" />
       <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\sg-blog-vue\static\img" />
       <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\framework\src\main\java\com\pei\utils" />
       <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\framework\src\main\java\com\pei\common" />
@@ -125,7 +124,7 @@
       <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\blog" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="前后端联调" type="CompoundRunConfigurationType">
       <toRun name="start" type="js.build_tools.npm" />
       <toRun name="BlogApplication" type="SpringBootApplicationConfigurationType" />
@@ -234,8 +233,8 @@
       <list>
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
-        <item itemvalue="JUnit.UserLoginTest" />
         <item itemvalue="JUnit.UserLoginTest.testSaveObject" />
+        <item itemvalue="JUnit.UserLoginTest" />
         <item itemvalue="JUnit.BlogApplicationTest" />
       </list>
     </recent_temporary>
@@ -285,6 +284,11 @@
       <workItem from="1673276242776" duration="434000" />
       <workItem from="1674030714074" duration="648000" />
       <workItem from="1674703000197" duration="11000" />
+      <workItem from="1692845184442" duration="97000" />
+      <workItem from="1698578779170" duration="1308000" />
+      <workItem from="1698641530698" duration="964000" />
+      <workItem from="1698642557590" duration="3822000" />
+      <workItem from="1698898019874" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程，并添加相关的依赖">
       <created>1662456991478</created>

@@ -397,7 +397,7 @@ const Typeit = (isAimee,emId) =>{
          speech：所有的speech。
          ***/
 
-        var world = 'TIAN';
+        var world = 'PEI';
         theater.describe("Luke", .9, emId);
         // conosle.log()
         theater.on("*", function (eventName, originalEvent, sceneName, arg) {//做点什么
