@@ -9,6 +9,342 @@
   <component name="ChangeListManager">
     <list default="true" id="534cb32e-a455-4867-86a1-5def49f64e4d" name="变更" comment="初步完成工程">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/pei_blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/document/pei_blog.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/.postcssrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/api/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/api/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/api/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/api/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/api/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/api/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/api/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/shCoreDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/assets/css/shCoreDefault.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/sigmar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/assets/css/sigmar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/assets/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/assets/css/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/articleDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/articleDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/articlelist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/articlelist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/friends.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/friends.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/message.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/reward.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/reward.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/components/rightlist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/components/rightlist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/DetailArticle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/DetailArticle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/FriendsLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/FriendsLink.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/Reward.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/Reward.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/Share.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/Share.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/pages/UserInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/pages/UserInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/errorCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/errorCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/plug.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/plug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/src/utils/theater.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/src/utils/theater.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/ali_pay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/ali_pay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/coffee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/coffee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/aini.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/aini.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baibai.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/baibai.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baiyan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/baiyan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/baobao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/baobao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/beishang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/beishang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/bishi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/bishi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/bizui.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/bizui.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/caonima.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/caonima.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/chanzui.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/chanzui.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/chijing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/chijing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/dangao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/dangao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fahongbao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/fahongbao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fennu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/fennu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/fuyun.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/fuyun.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ganmao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/ganmao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/geili.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/geili.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/good.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/good.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/guzhang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/guzhang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haha.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/haha.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haixiu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/haixiu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/han.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/han.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/haqian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/haqian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/heixian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/heixian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/heng.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/heng.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/huatong.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/huatong.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/hufen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/hufen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/jiong.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/jiong.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/jiyan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/jiyan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/keai.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/keai.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/kelian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/kelian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ku.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/ku.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/kun.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/kun.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lai.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/lai.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lazhu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/lazhu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/lei.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/lei.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/no.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/no.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/nu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/nu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/numa.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/numa.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/ok.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/qian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/qian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/qinqin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/qinqin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ruo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/ruo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/se.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/se.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shangxin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shangxin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shengbing.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shengbing.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shenma.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shenma.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shiwang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shiwang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shuai.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shuai.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shudaizi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shudaizi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/shui.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/shui.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/sikao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/sikao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/taikaixin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/taikaixin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/touxiao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/touxiao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/tu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/tu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/tuzi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/tuzi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/wabi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/wabi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiguan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/weiguan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiqu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/weiqu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weiwu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/weiwu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/weixiao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/weixiao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xin.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/xin.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xiongmao.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/xiongmao.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xixi.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/xixi.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/xu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/xu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/ye.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/ye.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yinxian.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/yinxian.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yiwen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/yiwen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/youhengheng.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/youhengheng.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/yun.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/yun.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zan.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/zan.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zhu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/zhu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zhuakuang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/zhuakuang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/emot/image/zuohengheng.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/emot/image/zuohengheng.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/headbg05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/headbg05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/heart02.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/heart02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/img01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/img01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/long.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/long.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/qq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/qq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/scroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/scroll.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/tou.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/tou.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/tou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/upto.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/upto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/web.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/web.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/wx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/wx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/img/wx_pay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/img/wx_pay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/static/js/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/static/js/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-blog-vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-blog-vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.env.staging" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.env.staging" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/README-zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/README-zh.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/content/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/content/article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/content/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/content/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/content/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/content/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/content/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/content/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/content/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/content/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/system/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/system/role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/api/system/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/api/system/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/404_images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/404_images/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/404_images/404_cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/404.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/bug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/bug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/build.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/build.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/button.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/button.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/cascader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/cascader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/chart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/checkbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/checkbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/color.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/component.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/component.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/dashboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/dashboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/date-range.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/date-range.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/date.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/date.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/dict.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/dict.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/documentation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/documentation.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/drag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/drag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/druid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/druid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/education.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/education.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/example.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/example.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/excel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/excel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/exit-fullscreen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/exit-fullscreen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/eye-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/eye-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/form.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/form.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/fullscreen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/fullscreen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/guide.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/guide.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/input.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/input.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/international.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/international.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/job.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/job.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/language.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/language.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/lock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/log.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/log.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/logininfor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/logininfor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/money.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/money.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/monitor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/monitor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/nested.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/nested.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/number.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/number.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/online.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/online.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/password.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/password.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/pdf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/people.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/peoples.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/peoples.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/post.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/post.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/qq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/qq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/question.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/question.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/radio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/radio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/rate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/rate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/redis.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/redis.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/row.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/row.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/select.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/select.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/shopping.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/shopping.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/size.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/size.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/skill.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/skill.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/slider.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/slider.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/swagger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/swagger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/switch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/switch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/system.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/system.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/table.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/textarea.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/textarea.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/theme.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/theme.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/time-range.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/time-range.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tool.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/tool.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tree-table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/tree-table.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/tree.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/tree.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/validCode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/validCode.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/wechat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/wechat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svg/zip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svg/zip.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/icons/svgo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/icons/svgo.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/images/dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/images/light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/login-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/images/login-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/assets/images/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/assets/images/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/components/Hamburger/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/components/Hamburger/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/components/ParentView/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/components/ParentView/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/components/SvgIcon/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/directive/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/directive/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/directive/permission/hasPermission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/directive/permission/hasPermission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/AppMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/AppMain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/InnerLink/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/InnerLink/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Link.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/layout/mixin/ResizeHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/plugins/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/plugins/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/plugins/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/plugins/cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/plugins/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/plugins/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/modules/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/modules/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/modules/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/element-ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/element-ui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/downloadService.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/downloadService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/errorCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/errorCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/get-page-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/get-page-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/jscencrypt.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/jscencrypt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/sg.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/sg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/content/article/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/content/article/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/content/article/write/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/content/article/write/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/content/category/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/content/category/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/content/link/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/content/link/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/content/tag/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/content/tag/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/system/menu/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/system/menu/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/system/role/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/system/role/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/src/views/system/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/src/views/system/user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/Hamburger.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/components/SvgIcon.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/formatTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/param2Obj.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/parseTime.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/tests/unit/utils/validate.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sg-vue-admin/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/pei-vue-admin/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,45 +385,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/earthyzinc/ProgramProject/pei_blog/sg-blog-vue/static/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "917468180f9440a907f9c88e65428448",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/earthyzinc/ProgramProject/pei_blog/sg-blog-vue/static/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;917468180f9440a907f9c88e65428448&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -108,7 +444,7 @@
       <recent name="D:\StudyDoc\My Program Files\3.Back End\pei_blog\blog" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
     <configuration name="前后端联调" type="CompoundRunConfigurationType">
       <toRun name="start" type="js.build_tools.npm" />
       <toRun name="BlogApplication" type="SpringBootApplicationConfigurationType" />
@@ -273,6 +609,8 @@
       <workItem from="1698641530698" duration="964000" />
       <workItem from="1698642557590" duration="3822000" />
       <workItem from="1698898019874" duration="1185000" />
+      <workItem from="1698931218281" duration="641000" />
+      <workItem from="1702024844826" duration="1440000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程，并添加相关的依赖">
       <created>1662456991478</created>
@@ -296,16 +634,19 @@
       <option name="project" value="LOCAL" />
       <updated>1698898382674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="初步完成工程">
+      <option name="closed" value="true" />
+      <created>1698931231953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698931231953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/sg-blog-vue/node_modules/@vue/cli-plugin-unit-jest/generator/template/tests/unit/example.spec.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -339,6 +680,18 @@
           <url>file://$PROJECT_DIR$/blog/src/main/java/com/pei/controller/CategoryController.java</url>
           <line>28</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pei-blog-vue/vue.config.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pei-blog-vue/src/store/index.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
