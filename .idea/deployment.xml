@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="天翼云linux" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="aliyun" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="天翼云linux">
+      <paths name="aliyun">
         <serverdata>
           <mappings>
-            <mapping deploy="/opt/docker/nginx/html" local="$PROJECT_DIR$/sg-blog-vue/dist" web="/" />
+            <mapping deploy="/opt/docker_volume/nginx/html/pei-blog" local="$PROJECT_DIR$/pei-blog-vue/dist" web="/" />
           </mappings>
         </serverdata>
       </paths>

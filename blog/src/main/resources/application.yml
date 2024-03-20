@@ -1,6 +1,8 @@
-server:
-  port: 9901
 spring:
+  application:
+    name: pei-blog
+  profiles:
+    active: dev
   datasource:
     url: jdbc:mysql://rm-bp1035514z9uq43q46o.mysql.rds.aliyuncs.com:3306/pei_blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncode=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
     username: admin_1066365803
@@ -25,5 +27,4 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
       id-type: auto
-pei-blog:
-  filePath: /tmp/peiBlog
+

@@ -1,0 +1,4 @@
+server:
+  port: 9901
+pei-blog:
+  filePath: E:/pei-blog

@@ -10,9 +10,9 @@ VOLUME /tmp
 
 COPY target/*.jar app.jar
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/app.jar", "--spring.profiles.active=prod"]
 
-EXPOSE 9901
+EXPOSE 80
 
 # 时区修改
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
